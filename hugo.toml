@@ -1,4 +1,4 @@
-baseURL = 'ferza17-me.github.io'
+baseURL = 'https://ferza17.github.io/ferza-me/'
 languageCode = 'en-us'
 title = 'Fery Reza Aditya'
 theme = 'hugo-PaperMod'
