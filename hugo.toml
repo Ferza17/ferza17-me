@@ -1,4 +1,5 @@
-baseURL = 'https://ferza17.github.io/ferza17-me/'languageCode = 'en-us'
+baseURL = 'https://ferza17.github.io/ferza17-me/'
+languageCode = 'en-us'
 title = 'Fery Reza Aditya'
 theme = 'hugo-PaperMod'
 
@@ -6,6 +7,9 @@ theme = 'hugo-PaperMod'
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
+relativeURLs = true
+canonifyURLs = true
+
 
 
 [menu]
