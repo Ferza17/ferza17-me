@@ -31,9 +31,9 @@ jobs:
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
 
-      # Step 4: Build the Hugo static site
-      - name: Build
-        run: ${RUNNER_TEMP}/hugo --minify # Builds with minification for performance
+#      # Step 4: Build the Hugo static site
+#      - name: Build
+#        run: ${RUNNER_TEMP}/hugo --minify # Builds with minification for performance
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy
