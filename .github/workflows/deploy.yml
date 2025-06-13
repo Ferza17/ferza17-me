@@ -15,7 +15,8 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v3
         with:
-          submodules: true # Checkout submodules if any
+          submodules: true # Include theme submodules
+
 
       # Step 2: Checkout the gh-pages branch to upload the built site
       - name: Checkout destination
