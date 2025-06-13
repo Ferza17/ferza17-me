@@ -1,5 +1,4 @@
-baseURL = 'https://Ferza17.github.io/ferza-me/' # Ensure this matches the deployment URL
-languageCode = 'en-us'
+baseURL = 'https://ferza17.github.io/ferza17-me/'languageCode = 'en-us'
 title = 'Fery Reza Aditya'
 theme = 'hugo-PaperMod'
 
